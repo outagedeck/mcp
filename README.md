@@ -1,13 +1,13 @@
 # OutageDeck MCP server
 
-[![OutageDeck logo](assets/logo.png)](https://outagedeck.com/developers/mcp)
+[![OutageDeck logo](assets/logo.png)](https://outagedeck.com/developers/mcp?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
 
 [![OutageDeck on Glama](https://img.shields.io/badge/Glama-healthy%20%C2%B7%2014%20tools%20%C2%B7%204.3%2F5-12b981)](https://glama.ai/mcp/connectors/com.outagedeck/outagedeck-status)
 
 [![Add OutageDeck to Cursor](https://cursor.com/deeplink/mcp-install-light.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=outagedeck&config=eyJ1cmwiOiJodHRwczovL291dGFnZWRlY2suY29tL2FwaS9tY3AifQ%3D%3D)
 [![Install OutageDeck in VS Code](https://img.shields.io/badge/VS_Code-Install_OutageDeck-0098FF?style=flat-square&logo=visualstudiocode&logoColor=ffffff)](vscode:mcp/install?%7B%22name%22%3A%22outagedeck%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Foutagedeck.com%2Fapi%2Fmcp%22%7D)
 
-[OutageDeck](https://outagedeck.com) gives AI coding agents live status, incident timelines, and independent uptime history for 172 cloud and SaaS vendors. The remote server reads each vendor's official status feed and needs no API key for public status checks.
+[OutageDeck](https://outagedeck.com?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution) gives AI coding agents live status, incident timelines, and independent uptime history for 172 cloud and SaaS vendors. The remote server reads each vendor's official status feed and needs no API key for public status checks.
 
 Use it to answer **“is it us or them?” before debugging your code**.
 
@@ -15,7 +15,7 @@ Use it to answer **“is it us or them?” before debugging your code**.
 - Transport: Streamable HTTP
 - Public status tools: free, no account or key
 - Official MCP Registry: `com.outagedeck/outagedeck-status`
-- Full documentation: [outagedeck.com/developers/mcp](https://outagedeck.com/developers/mcp)
+- Full documentation: [outagedeck.com/developers/mcp](https://outagedeck.com/developers/mcp?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
 - GitHub Actions: [`outagedeck/status-check@v1`](https://github.com/outagedeck/status-check)
 
 ## Connect in one line
@@ -75,9 +75,9 @@ Public tools are read-only. Account-specific tools require an OutageDeck API key
 
 Provider status, incident history, the public API, RSS, badges, and the public MCP tools are free without an account. Free accounts add email alerts for up to five providers. Paid plans add Slack, Teams, Discord, and webhook alerts, custom providers, and higher API quotas.
 
-- [Create a free alert](https://outagedeck.com/account)
-- [See pricing](https://outagedeck.com/pricing)
-- [Browse all providers](https://outagedeck.com/providers)
+- [Create a free alert](https://outagedeck.com/account?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
+- [See pricing](https://outagedeck.com/pricing?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
+- [Browse all providers](https://outagedeck.com/providers?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
 
 ## Registry metadata
 
