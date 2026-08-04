@@ -11,6 +11,7 @@ Use it to answer **“is it us or them?” before debugging your code**.
 - Public status tools: free, no account or key
 - Official MCP Registry: `com.outagedeck/outagedeck-status`
 - Full documentation: [outagedeck.com/developers/mcp](https://outagedeck.com/developers/mcp)
+- GitHub Actions: [`outagedeck/status-check@v1`](https://github.com/outagedeck/status-check)
 
 ## Connect in one line
 
