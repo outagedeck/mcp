@@ -1,5 +1,7 @@
 # OutageDeck MCP server
 
+[![OutageDeck logo](assets/logo.png)](https://outagedeck.com/developers/mcp)
+
 [![OutageDeck on Glama](https://img.shields.io/badge/Glama-healthy%20%C2%B7%2014%20tools%20%C2%B7%204.3%2F5-12b981)](https://glama.ai/mcp/connectors/com.outagedeck/outagedeck-status)
 
 [OutageDeck](https://outagedeck.com) gives AI coding agents live status, incident timelines, and independent uptime history for 172 cloud and SaaS vendors. The remote server reads each vendor's official status feed and needs no API key for public status checks.
