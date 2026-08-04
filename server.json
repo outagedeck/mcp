@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.outagedeck/outagedeck-status",
+  "title": "OutageDeck",
+  "description": "Live status for 172 cloud and SaaS vendors from their official feeds. Is it you, or is it them?",
+  "version": "1.1.0",
+  "websiteUrl": "https://outagedeck.com/developers/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://outagedeck.com/api/mcp"
+    }
+  ]
+}
