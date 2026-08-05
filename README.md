@@ -32,13 +32,20 @@ codex plugin marketplace add outagedeck/codex-plugins
 
 Then run `/plugins`, choose **OutageDeck**, install the plugin, and start a new session. The [public plugin marketplace](https://github.com/outagedeck/codex-plugins) is validated against the live MCP contract.
 
+Claude Code (installs the same MCP server and triage skill):
+
+```sh
+claude plugin marketplace add outagedeck/codex-plugins
+claude plugin install outagedeck@outagedeck
+```
+
 Agent Package Manager (after `apm init`; deploys to the clients declared in your APM project):
 
 ```sh
 apm install --mcp com.outagedeck/outagedeck-status --transport http --registry https://registry.modelcontextprotocol.io
 ```
 
-Claude Code:
+Claude Code, MCP connection only:
 
 ```sh
 claude mcp add --transport http outagedeck https://outagedeck.com/api/mcp
