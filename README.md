@@ -18,6 +18,7 @@ Use it to answer **“is it us or them?” before debugging your code**.
 - Official MCP Registry: `com.outagedeck/outagedeck-status`
 - Full documentation: [outagedeck.com/developers/mcp](https://outagedeck.com/developers/mcp?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
 - GitHub Actions: [`outagedeck/status-check@v1`](https://github.com/outagedeck/status-check)
+- Terminal and general CI: [`brew install outagedeck/tap/outagedeck`](https://github.com/outagedeck/cli)
 
 ## Connect in one line
 
