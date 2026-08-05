@@ -1,6 +1,6 @@
 {
   "name": "outagedeck",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Check live AI, cloud, and SaaS provider status, incidents, and uptime before debugging with Gemini CLI.",
   "mcpServers": {
     "outagedeck": {
