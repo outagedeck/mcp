@@ -24,6 +24,14 @@ Use it to answer **“is it us or them?” before debugging your code**.
 
 ## Connect in one line
 
+Antigravity CLI (installs the native plugin with public read-only MCP tools):
+
+```sh
+agy plugin install https://github.com/outagedeck/mcp
+```
+
+The plugin uses Antigravity's current `serverUrl` schema, requests no secrets or local execution, and disables the five account-scoped tools. See the [Antigravity setup guide](https://outagedeck.com/developers/mcp?utm_source=github&utm_medium=repository&utm_campaign=antigravity_plugin) for prompts and the current public tool catalog.
+
 Gemini CLI (installs the public read-only MCP tools as an extension):
 
 ```sh

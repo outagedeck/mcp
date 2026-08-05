@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "outagedeck",
+  "description": "Check live AI, cloud, and SaaS provider status, incidents, and uptime before debugging."
+}
