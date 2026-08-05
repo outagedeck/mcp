@@ -39,6 +39,14 @@ claude plugin marketplace add outagedeck/codex-plugins
 claude plugin install outagedeck@outagedeck
 ```
 
+Portable Agent Skill for Codex, Claude Code, Cursor, GitHub Copilot, Windsurf, Gemini CLI, Cline, and other compatible agents:
+
+```sh
+npx skills add https://github.com/outagedeck/codex-plugins --skill triage-dependency-outages
+```
+
+The portable skill is [listed with a passing Snyk audit on skills.sh](https://www.skills.sh/outagedeck/codex-plugins/triage-dependency-outages). It uses the MCP tools when available and otherwise falls back to the anonymous REST API for current status and incident evidence.
+
 Agent Package Manager (after `apm init`; deploys to the clients declared in your APM project):
 
 ```sh
