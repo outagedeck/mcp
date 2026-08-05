@@ -59,6 +59,22 @@ Claude Code, MCP connection only:
 claude mcp add --transport http outagedeck https://outagedeck.com/api/mcp
 ```
 
+OpenCode: add the remote server to `opencode.json`:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "outagedeck": {
+      "type": "remote",
+      "url": "https://outagedeck.com/api/mcp"
+    }
+  }
+}
+```
+
+Verify the connection with `opencode mcp debug outagedeck`, then ask: “Check AWS, GitHub, and Cloudflare for active incidents before changing deployment code. use outagedeck”. See the [OpenCode setup guide](https://outagedeck.com/developers/mcp?utm_source=github&utm_medium=repository&utm_campaign=opencode_mcp) for the current tool catalog and trust model.
+
 For MCP clients that accept JSON configuration:
 
 ```json
