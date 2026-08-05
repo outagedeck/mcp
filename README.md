@@ -21,6 +21,12 @@ Use it to answer **“is it us or them?” before debugging your code**.
 
 ## Connect in one line
 
+Agent Package Manager (after `apm init`; deploys to the clients declared in your APM project):
+
+```sh
+apm install --mcp com.outagedeck/outagedeck-status --transport http --registry https://registry.modelcontextprotocol.io
+```
+
 Claude Code:
 
 ```sh
