@@ -24,6 +24,14 @@ Use it to answer **“is it us or them?” before debugging your code**.
 
 ## Connect in one line
 
+Codex (installs the MCP server plus the dependency-outage triage skill):
+
+```sh
+codex plugin marketplace add outagedeck/codex-plugins
+```
+
+Then run `/plugins`, choose **OutageDeck**, install the plugin, and start a new session. The [public plugin marketplace](https://github.com/outagedeck/codex-plugins) is validated against the live MCP contract.
+
 Agent Package Manager (after `apm init`; deploys to the clients declared in your APM project):
 
 ```sh
