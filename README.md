@@ -6,7 +6,8 @@
 
 [![Add OutageDeck to Cursor](https://cursor.com/deeplink/mcp-install-light.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=outagedeck&config=eyJ1cmwiOiJodHRwczovL291dGFnZWRlY2suY29tL2FwaS9tY3AifQ%3D%3D)
 [![Install OutageDeck in VS Code](https://img.shields.io/badge/VS_Code-Install_OutageDeck-0098FF?style=flat-square&logo=visualstudiocode&logoColor=ffffff)](vscode:mcp/install?%7B%22name%22%3A%22outagedeck%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Foutagedeck.com%2Fapi%2Fmcp%22%7D)
-[![Install the outage-triage agent in VS Code](https://img.shields.io/badge/VS_Code-Install_Outage_Triage_Agent-0098FF?style=flat-square&logo=visualstudiocode&logoColor=ffffff)](https://aka.ms/awesome-copilot/install/agent?url=vscode%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Foutagedeck%2Fmcp%2Fmain%2F.github%2Fagents%2Fcloud-saas-outage-triage.agent.md)
+[![Install the outage-triage agent in VS Code](https://img.shields.io/badge/VS_Code-Install_Outage_Triage_Agent-0098FF?style=flat-square&logo=visualstudiocode&logoColor=ffffff)](https://aka.ms/awesome-copilot/install/agent?url=vscode%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fagents%2Fcloud-saas-outage-triage.agent.md)
+[![Published in GitHub Awesome Copilot](https://img.shields.io/badge/GitHub_Awesome_Copilot-Published-8250df?style=flat-square&logo=githubcopilot&logoColor=ffffff)](https://github.com/github/awesome-copilot/blob/main/agents/cloud-saas-outage-triage.agent.md)
 
 [OutageDeck](https://outagedeck.com?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution) gives AI coding agents live status, incident timelines, and independent uptime history for 172 cloud and SaaS vendors. The remote server reads each vendor's official status feed and needs no API key for public status checks.
 
@@ -17,6 +18,7 @@ Use it to answer **“is it us or them?” before debugging your code**.
 - Public status tools: free, no account or key
 - Official MCP Registry: `com.outagedeck/outagedeck-status`
 - Full documentation: [outagedeck.com/developers/mcp](https://outagedeck.com/developers/mcp?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
+- Installable outage-triage agent: [published in GitHub Awesome Copilot](https://github.com/github/awesome-copilot/blob/main/agents/cloud-saas-outage-triage.agent.md)
 - GitHub Actions: [`outagedeck/status-check@v1`](https://github.com/outagedeck/status-check)
 - Terminal and general CI: [`brew install outagedeck/tap/outagedeck`](https://github.com/outagedeck/cli)
 
