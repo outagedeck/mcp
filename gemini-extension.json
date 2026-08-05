@@ -1,0 +1,24 @@
+{
+  "name": "outagedeck",
+  "version": "1.0.0",
+  "description": "Check live AI, cloud, and SaaS provider status, incidents, and uptime before debugging with Gemini CLI.",
+  "mcpServers": {
+    "outagedeck": {
+      "url": "https://outagedeck.com/api/mcp",
+      "type": "http",
+      "timeout": 30000,
+      "description": "Live provider status, incident timelines, and uptime history from OutageDeck.",
+      "includeTools": [
+        "get_provider_status",
+        "check_my_stack",
+        "list_active_incidents",
+        "get_incident_details",
+        "get_uptime",
+        "get_outage_report",
+        "search_providers",
+        "search",
+        "fetch"
+      ]
+    }
+  }
+}

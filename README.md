@@ -24,6 +24,14 @@ Use it to answer **“is it us or them?” before debugging your code**.
 
 ## Connect in one line
 
+Gemini CLI (installs the public read-only MCP tools as an extension):
+
+```sh
+gemini extensions install https://github.com/outagedeck/mcp
+```
+
+The extension requests no settings or secrets and intentionally exposes only the nine public read-only tools. See the [Gemini CLI setup guide](https://outagedeck.com/developers/mcp?utm_source=github&utm_medium=repository&utm_campaign=gemini_cli_extension) for prompts and the current tool catalog.
+
 Codex (installs the MCP server plus the dependency-outage triage skill):
 
 ```sh
