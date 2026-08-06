@@ -22,6 +22,8 @@ Use it to answer **“is it us or them?” before debugging your code**.
 - GitHub Actions: [`outagedeck/status-check@v1`](https://github.com/outagedeck/status-check)
 - Terminal and general CI: [`brew install outagedeck/tap/outagedeck`](https://github.com/outagedeck/cli)
 
+Want OutageDeck to watch your dependencies between agent checks? [Start free email alerts for up to five providers](https://outagedeck.com/alerts?utm_source=github&utm_medium=repository&utm_campaign=mcp_repo_alerts). Paid delivery to Slack, Teams, Discord, and webhooks is available from the same setup.
+
 ## Connect in one line
 
 Antigravity CLI (installs the native plugin with public read-only MCP tools):
@@ -140,7 +142,7 @@ Public tools are read-only. Account-specific tools require an OutageDeck API key
 
 Provider status, incident history, the public API, RSS, badges, and the public MCP tools are free without an account. Free accounts add email alerts for up to five providers. Paid plans add Slack, Teams, Discord, and webhook alerts, custom providers, and higher API quotas.
 
-- [Create a free alert](https://outagedeck.com/account?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
+- [Start free email alerts for up to five providers](https://outagedeck.com/alerts?utm_source=github&utm_medium=repository&utm_campaign=mcp_repo_alerts)
 - [See pricing](https://outagedeck.com/pricing?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
 - [Browse all providers](https://outagedeck.com/providers?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution)
 
