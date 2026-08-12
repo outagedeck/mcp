@@ -22,7 +22,7 @@ Use it to answer **“is it us or them?” before debugging your code**.
 - GitHub Actions: [`outagedeck/status-check@v1`](https://github.com/outagedeck/status-check)
 - Terminal and general CI: [`brew install outagedeck/tap/outagedeck`](https://github.com/outagedeck/cli)
 
-Want OutageDeck to watch your dependencies between agent checks? [Start free email alerts for up to five providers](https://outagedeck.com/alerts?utm_source=github&utm_medium=repository&utm_campaign=mcp_repo_alerts). Paid delivery to Slack, Teams, Discord, and webhooks is available from the same setup.
+Every successful `check_my_stack` response includes two links: `links.liveBoard` for the current stack view and `links.alerts` for the same resolved providers already selected in the account flow. Free email alerts cover up to five providers. Slack, Teams, Discord, and webhook delivery are available from the same setup.
 
 ## Connect in one line
 
@@ -122,7 +122,7 @@ Public tools:
 | Tool | Purpose |
 | --- | --- |
 | `get_provider_status` | Live status for one provider |
-| `check_my_stack` | One verdict across up to 12 providers |
+| `check_my_stack` | One verdict across up to 12 providers, with a prefilled alert setup link |
 | `list_active_incidents` | Active incidents across the catalog |
 | `get_incident_details` | A vendor's complete incident update timeline |
 | `get_uptime` | Independent 7–90 day uptime history |
