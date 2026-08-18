@@ -9,7 +9,7 @@
 [![Install the outage-triage agent in VS Code](https://img.shields.io/badge/VS_Code-Install_Outage_Triage_Agent-0098FF?style=flat-square&logo=visualstudiocode&logoColor=ffffff)](https://aka.ms/awesome-copilot/install/agent?url=vscode%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fagents%2Fcloud-saas-outage-triage.agent.md)
 [![Published in GitHub Awesome Copilot](https://img.shields.io/badge/GitHub_Awesome_Copilot-Published-8250df?style=flat-square&logo=githubcopilot&logoColor=ffffff)](https://awesome-copilot.github.com/agent/cloud-saas-outage-triage/)
 
-[OutageDeck](https://outagedeck.com?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution) gives AI coding agents live status, incident timelines, and independent uptime history for 172 cloud and SaaS vendors. The remote server reads each vendor's official status feed and needs no API key for public status checks.
+[OutageDeck](https://outagedeck.com?utm_source=github&utm_medium=repository&utm_campaign=mcp_distribution) gives AI coding agents current status, incident timelines, and observed uptime history for cloud and SaaS vendors, based on the official status feeds they publish. The remote server needs no API key for public status checks.
 
 Use it to answer **“is it us or them?” before debugging your code**.
 
@@ -121,7 +121,7 @@ Public tools:
 
 | Tool | Purpose |
 | --- | --- |
-| `get_provider_status` | Live status for one provider |
+| `get_provider_status` | Vendor-published status for one provider |
 | `check_my_stack` | One verdict across up to 12 providers, with a prefilled alert setup link |
 | `list_active_incidents` | Active incidents across the catalog |
 | `get_incident_details` | A vendor's complete incident update timeline |
